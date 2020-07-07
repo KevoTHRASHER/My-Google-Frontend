@@ -1,0 +1,163 @@
+body {
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+nav {
+	min-width: 275px;
+	padding-left: 30px;
+	padding-right: 60px;
+	align-text: center;
+	float: right;
+	margin-top: auto;
+}
+
+li {
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+#LoginGoogleButton {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: left;
+	line-height: normal;
+	border-radius: 3px;
+	border: 1px solid #4285F4;
+	background: #4387FD;
+	color: white;
+	white-space: nowrap;
+	outline: none;
+	cursor: pointer;
+}
+
+#ImgDoodleSearchBox {
+	position: absolute;
+	flex-direction: column;
+	display: flex;
+	flex-wrap: wrap;
+	width: 0 auto;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-items: center;
+	justify-content: space-between;
+	margin-top: -170px;
+}
+
+#GoogleSearchBox {
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #DFE1E5;
+	box-shadow: none;
+	border-radius: 24px;
+	width: 482px;
+	height: 44px;
+	outline: none;
+	z-index: 3;
+}
+
+img {
+	padding: 20px;
+}
+
+#GoogleSearchBox {
+	margin: 0 auto;
+	width: 582px;
+	height: 44px;
+	padding: 10px;
+	display: flex;
+}
+
+#GoogleSearchBox:focus {
+	cursor: text;
+}
+
+#ButtonsDownDivSearchBox{
+	width: 0 auto;
+	padding: 25px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#GoogleSearchButton, #FeelLuckyButton {
+	background-image: linear-gradient(top, #F5F5F5, #F1F1F1);
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	color: #5F6368;
+	font-size: 14px;
+	height: 36px;
+	text-align: center;
+	line-height: 27px;
+	padding: 0 16px;
+	border-radius: 4px;
+	outline: none;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+}
+
+#GoogleSearchButton:hover, #FeelLuckyButton:hover {
+	border: 1px solid rgb(170, 170, 170);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 8%;
+	font-size: 14px;
+	background-image: linear-gradient(top, #F5F5F5, #F1F1F1);
+	background-color: #F2F2F2;
+	border-top: 1px solid #F2F2F2;
+	color: #5F6368;
+	font-size: 14px;
+	border-top: 1px solid #E4E4E4;
+}
+
+footer a {
+	color: #5F6368;
+	text-decoration: none;
+}
+
+#FooterBegin {
+	display: flex;
+	padding: 10px;
+	margin-left: 27px;
+}
+
+#FooterEnd {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #E4E4E4;
+	color: #5F6368;
+}
+
+#FooterEndLeft {
+	padding: 10px;
+	color: #5F6368;
+}
+
+#FooterEndLeft a {
+	margin-left: 27px;
+}
+
+#FooterEndRight {
+	padding:10px;
+}
+
+#FooterEndRight a {
+	margin-right: 27px;
+}
